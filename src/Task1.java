@@ -19,10 +19,10 @@ import java.util.Scanner;
  */
 public class Task1 {
     public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("enter a number:");
-        int age=scanner.nextInt();
-        if (age<20||age>60){
+        int age = scanner.nextInt();
+        if (age < 20 || age > 60) {
             System.out.println("may not work");
         }
     }
