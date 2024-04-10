@@ -24,7 +24,7 @@ import java.util.Scanner;
  */
 public class Task9 {
     public static void main(String[] args) {
-        String text = " любит меня.";
+        String text = " loves me.";
         Scanner console = new Scanner(System.in);
         String name = console.nextLine();
         int i = 0;
